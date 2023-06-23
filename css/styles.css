@@ -1,0 +1,223 @@
+@import "https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  *::after *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.body {
+  background-color: #d6d7ec; }
+
+main {
+  min-height: 100vh; }
+
+.body {
+  background-color: #d6d7ec; }
+
+main {
+  min-height: 100vh; }
+
+header {
+  background-color: #a7a5be; }
+
+.logo {
+  width: 20%;
+  padding: 1rem; }
+
+.navbr {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  background-color: #463838;
+  justify-content: space-around; }
+  .navbr a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Smooch Sans', sans-serif; }
+    .navbr a:hover {
+      color: #d4a2df; }
+
+footer {
+  background-color: black;
+  height: auto; }
+
+.fts {
+  justify-content: left;
+  align-items: center;
+  padding: 0.5rem; }
+
+.ft {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em; }
+
+#h3 {
+  color: white;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 0.5em; }
+
+@media screen and (max-width: 412px) {
+  #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .logo {
+    width: 18rem;
+    height: 100%; } }
+
+.img {
+  display: grid;
+  padding: 5rem;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  grid-template-areas: "img1 img2 img3" "img4 img5 vid1";
+  grid-template-columns: repeat(3, 1f);
+  grid-template-rows: repeat(2, 50%); }
+
+.vid1 {
+  grid-area: vid1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.img1 {
+  grid-area: img1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.img2 {
+  grid-area: img2;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.img3 {
+  grid-area: img3;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.img4 {
+  grid-area: img4;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+.img5 {
+  grid-area: img5;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+@media screen and (max-width: 412px) {
+  .img {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center; }
+  .vid1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  .img1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  .img2 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  .img3 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  .img4 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  .img5 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; } }
+
+main {
+  margin: 4rem; }
+
+.variables {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 2em;
+  margin-top: 3rem;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.par {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  text-align: justify;
+  font-size: 1.5em; }
+
+.pic-prod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem; }
+
+.pic-img {
+  height: 60%;
+  width: 60%;
+  object-fit: cover; }
+
+@media screen and (max-width: 412px) {
+  .pic-img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover; } }
+
+.h2-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.clientlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem; }
+
+.zone {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.loc {
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif; }
+
+#parrafo {
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify; }
+
+.container {
+  justify-content: center;
+  align-items: center; }
+
+.formcontact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem; }

@@ -1,0 +1,91 @@
+@mixin dimension {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.img {
+	display: grid;
+	padding: 5rem;
+	justify-content: center;
+	column-gap: 2rem;
+	row-gap: 2rem;
+	grid-template-areas: "img1 img2 img3""img4 img5 vid1";
+	grid-template-columns: repeat(3, 1f);
+	grid-template-rows: repeat(2, 50%);
+}
+
+.vid1 {
+	grid-area: vid1;
+	@include dimension;
+}
+
+.img1 {
+	grid-area: img1;
+	@include dimension;
+}
+
+.img2 {
+	grid-area: img2;
+	@include dimension;
+}
+
+.img3 {
+	grid-area: img3;
+	@include dimension;
+}
+
+.img4 {
+	grid-area: img4;
+	@include dimension;
+}
+
+.img5 {
+	grid-area: img5;
+	@include dimension;
+}
+
+@media screen and (max-width: 412px) {
+	.img {
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+		justify-content: center;
+	}
+
+	.vid1 {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.img1 {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.img2 {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.img3 {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.img4 {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.img5 {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+}

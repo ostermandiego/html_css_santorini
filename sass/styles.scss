@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	&::after {
+		* {
+			&::before {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+		}
+	}
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.body {
+	background-color: rgb(214, 215, 236);
+}
+
+main {
+	min-height: 100vh;
+}
+
+@import "https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap";
+@import "components/header";
+@import "components/footer";
+@import "components/index";
+@import "components/productos";
+@import "components/clientes";
+@import "components/sobrenosotros";
+@import "components/contacto";

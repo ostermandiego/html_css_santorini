@@ -1,0 +1,21 @@
+.h2-title {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.clientlist {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 3rem;
+}
+
+.zone {
+	font-size: 2em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.loc {
+	font-size: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
